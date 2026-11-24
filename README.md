@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="./organization/logos/header.svg" alt="Powerline Dev" width="480" />
 </p>
 
@@ -6,7 +6,7 @@
 
 Official brand assets and visual identity of Powerline Dev.
 
-This repository serves as the central source for logos, icons, banners, social previews, screenshots, project descriptions, and brand guidelines across all Powerline Dev projects.
+This repository defines the shared visual identity, brand assets, and design guidelines used across Powerline Dev projects.
 
 ## Repository Structure
 
@@ -14,50 +14,43 @@ This repository serves as the central source for logos, icons, banners, social p
 branding/
 ├── organization/
 │   ├── logos/
-│   ├── banners/
-│   ├── social-preview.png
+│   │   ├── icon.svg
+│   │   ├── icon.png
+│   │   └── header.svg
 │   └── description.txt
-├── projects/
-│   ├── codex-powerline-cli/
-│   │   ├── logos/
-│   │   ├── banners/
-│   │   ├── screenshots/
-│   │   ├── social-preview.png
-│   │   └── description.txt
-│   ├── codex-powerline-vscode/
-│   │   ├── logos/
-│   │   ├── banners/
-│   │   ├── screenshots/
-│   │   ├── social-preview.png
-│   │   └── description.txt
-│   └── codex-powerline-core/
-│       ├── logos/
-│       └── description.txt
 ├── guidelines/
 │   ├── colors.md
-│   └── typography.md
+│   ├── typography.md
+│   └── logos.md
 └── README.md
 ```
 
-## Projects
-
-| Project | Description |
-|---|---|
-| `codex-powerline-cli` | Customizable Powerline statusline for OpenAI Codex CLI. |
-| `codex-powerline-vscode` | Powerline integration for the Codex VS Code extension. |
-| `codex-powerline-core` | Shared components, themes, configuration, and utilities. |
-
 ## Brand Identity
 
-The Powerline Dev visual identity is built around simplicity, bold monospace typography, and a signature color gradient transitioning from indigo through purple and coral to golden yellow.
+The Powerline Dev visual identity is built around:
 
-All projects follow a consistent visual language while maintaining their own product-specific assets.
+- Minimalist, terminal-inspired design.
+- Bold monospace typography.
+- A signature color gradient transitioning from indigo through purple and coral to golden yellow.
+- Consistent visual language across all projects.
+
+## Brand Guidelines
+
+- [Color Palette](./guidelines/colors.md)
+- [Typography](./guidelines/typography.md)
+- [Logo Guidelines](./guidelines/logos.md)
+
+## Brand Assets
+
+| Asset | Description |
+|---|---|
+| [Icon (SVG)](./organization/logos/icon.svg) | Square organization logo |
+| [Icon (PNG)](./organization/logos/icon.png) | Raster organization logo |
+| [Header (SVG)](./organization/logos/header.svg) | Horizontal logo with transparent background |
 
 ## Usage
 
-Assets can be referenced directly from other repositories using raw GitHub URLs.
-
-### Organization Logo
+Organization assets can be referenced directly from other repositories using raw GitHub URLs.
 
 ```html
 <p align="center">
@@ -69,15 +62,11 @@ Assets can be referenced directly from other repositories using raw GitHub URLs.
 </p>
 ```
 
-### Project Assets
+## Project Branding
 
-Project-specific assets are located under:
+Each Powerline Dev project maintains its own product-specific assets within its repository, including logos, screenshots, banners, and social previews.
 
-```text
-projects/<project-name>/
-```
-
-This repository is intended to be the single source of truth for all Powerline Dev branding assets.
+All project assets should follow the shared visual guidelines defined in this repository.
 
 ## Organization
 
