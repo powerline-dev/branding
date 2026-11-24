@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Powerline Dev</title>
+  <rect width="512" height="512" fill="#000000"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="84" font-weight="700" text-anchor="middle">
+    <text y="238">
+      <tspan x="54.4" fill="#3f51b1">P</tspan><tspan x="104.8" fill="#7b5fac">o</tspan><tspan x="155.2" fill="#8f6aae">w</tspan><tspan x="205.6" fill="#9c6aa9">e</tspan><tspan x="256" fill="#ba6b99">r</tspan><tspan x="306.4" fill="#df7780">l</tspan><tspan x="356.8" fill="#f18271">i</tspan><tspan x="407.2" fill="#f3a469">n</tspan><tspan x="457.6" fill="#f7c978">e</tspan>
+    </text>
+    <text y="330">
+      <tspan x="208.4" fill="#9c6aa9">D</tspan><tspan x="258.8" fill="#ba6b99">e</tspan><tspan x="309.6" fill="#df7780">v</tspan>
+    </text>
+  </g>
+</svg>
