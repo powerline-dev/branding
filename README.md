@@ -68,6 +68,16 @@ Each Powerline Dev project maintains its own product-specific assets within its 
 
 All project assets should follow the shared visual guidelines defined in this repository.
 
+## Active Projects
+
+- [Codex Powerline CLI](https://github.com/powerline-dev/codex-powerline-cli):
+  terminal launcher, settings, themes, widgets, and presets.
+- [Codex Powerline for VS Code](https://github.com/powerline-dev/codex-powerline-vscode):
+  a sidebar terminal that runs the installed CLI.
+
+The former Core library is maintained inside the CLI repository. New product
+assets and documentation should point to the CLI or VS Code project.
+
 ## Organization
 
 [Powerline Dev](https://github.com/powerline-dev)
