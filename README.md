@@ -39,6 +39,7 @@ The Powerline Dev visual identity is built around:
 - [Color Palette](./guidelines/colors.md)
 - [Typography](./guidelines/typography.md)
 - [Logo Guidelines](./guidelines/logos.md)
+- [Product README Guidelines](./guidelines/readme.md)
 
 ## Brand Assets
 
